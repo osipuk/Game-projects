@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name = "viewport" content = "initial-scale=1, maximum-scale=1, width=device-width, target-densitydpi=device-dpi"/>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <title>Pool Game</title>
+		<style  type="text/css">
+		 *{
+		    /*-webkit-user-modify:read-only;*/
+		    -webkit-touch-callout:none;
+		    -webkit-user-select:none;
+		    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+		    
+		}
+		body{
+		background-color:#000000;
+		}			
+		
+		#pool_table_canvas{
+			background-color:#000000;
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+		/*	border: 5px solid #FF9966;*/
+			cursor:pointer;
+			
+		}
+		#load{
+			background-color:#000000;
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+			cursor:pointer;
+
+			
+		}
+		</style>
+		 <script type="text/javascript" language="javascript1.1" src="AudioManager.js"></script> 
+		<script type="text/javascript" language="javascript1.1" src="canvas_pool.js"></script>
+		<script type="text/javascript" language="javascript1.1"  src="load.js"></script>
+        
+		<script type="text/javascript" language="javascript1.1" src="ball.js"></script>
+		<script type="text/javascript" language="javascript1.1" src="Cushion.js"></script>
+		<script type="text/javascript" language="javascript1.1" src="Game.js"></script>
+		<script type="text/javascript" language="javascript1.1" src="Pocket.js"></script>
+		<script type="text/javascript" language="javascript1.1" src="Polygon.js"></script>
+		<script type="text/javascript" language="javascript1.1" src="Shot.js"></script>
+		<script type="text/javascript" language="javascript1.1" src="Table.js"></script>
+		<script type="text/javascript" language="javascript1.1" src="Vector.js"></script>
+		
+    </head>
+    <body onLoad="Start( &quot;pool_table&quot;)">
+   
+        <div id="pool_table"></div>
+
+
+    
+
+</body></html>
